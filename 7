@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+  float custo_fabrica, custo_consumidor;
+
+  printf("Digite o custo de fábrica do carro: ");
+  scanf("%f", &custo_fabrica);
+
+  custo_consumidor = custo_fabrica + custo_fabrica * 0.28 + custo_fabrica * 0.45; 
+
+  printf("O custo final é: R$ %.2f\n", custo_consumidor);
+
+  return 0;
+}
